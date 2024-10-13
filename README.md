@@ -21,5 +21,6 @@
 * discription
 ---
 ## Week 5 assignment
->
+>docker exec ossp-container cat /etc/os-release
+>*discription
 
