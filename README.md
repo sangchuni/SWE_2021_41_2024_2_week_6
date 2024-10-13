@@ -35,18 +35,18 @@
 >  ID_LIKE=debian\
 >  HOME_URL="https://www.ubuntu.com/" \
 >  UBUNTU_CODENAME=noble\
->  LOGO=ubuntu-logo\
+>  LOGO=ubuntu-logo
 >* This contains the information of ubuntu
 
 >docker exec ossp-container git --version
->* git version 2.43.0\
+>* git version 2.43.0
 >*  This shows the version of git
 
 >docker exec ossp-container python3 --version
->* Python 3.12.3\
+>* Python 3.12.3
 >*  This shows the version of Python installed
 
 >docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
->* [./ossp_host_dir:/mnt/ossp_container_dir]\
+>* [./ossp_host_dir:/mnt/ossp_container_dir]
 >*  This shows which path the container uses in host
 
