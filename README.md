@@ -36,11 +36,11 @@
 >  HOME_URL="https://www.ubuntu.com/" \
 >  UBUNTU_CODENAME=noble\
 >  LOGO=ubuntu-logo\
->  This contains the information of ubuntu
+>* This contains the information of ubuntu
 
 >docker exec ossp-container git --version
 >* git version 2.43.0\
->  This shows the version of git
+>*  This shows the version of git
 
 >docker exec ossp-container python3 --version
 >* Python 3.12.3\
