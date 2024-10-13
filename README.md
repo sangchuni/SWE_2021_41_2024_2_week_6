@@ -18,7 +18,12 @@
 </code>
 </pre>
 
-* discription
+* This code is made to find out if the number user input is the happy number.\
+  I make array in set so that we can find if the number in array is repeated.\
+  If the array is repeated we can say the array is in infinity loop and this means the number is not a happy number.\
+  And if the number becomes 1 it means the number user input is the happy number.
+  
+  
 ---
 ## Week 5 assignment
 >docker exec ossp-container cat /etc/os-release
@@ -31,14 +36,17 @@
 >  HOME_URL="https://www.ubuntu.com/" \
 >  UBUNTU_CODENAME=noble\
 >  LOGO=ubuntu-logo\
->  
+>  This contains the information of ubuntu
 
 >docker exec ossp-container git --version
 >* git version 2.43.0\
+>  This shows the version of git
 
 >docker exec ossp-container python3 --version
 >* Python 3.12.3\
+>  This shows the version of Python installed
 
 >docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 >* [./ossp_host_dir:/mnt/ossp_container_dir]\
+>  This shows which path the container uses in host
 
