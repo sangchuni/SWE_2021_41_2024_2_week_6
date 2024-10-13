@@ -1,8 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 
 ## Week 4 assignment
-* >>https://github.com/sangchuni/-SWE_2021_41_2024_2_week_4-/blob/main/_%7B2020313735%7D_%7B%EA%B3%BD%EC%83%81%EC%B2%9C%7D.ipynb
-
+* https://github.com/sangchuni/-SWE_2021_41_2024_2_week_4-/blob/main/_%7B2020313735%7D_%7B%EA%B3%BD%EC%83%81%EC%B2%9C%7D.ipynb
 <pre>
 <code>
   def isHappy(n):
@@ -22,4 +21,5 @@
 * discription
 ---
 ## Week 5 assignment
+>
 
