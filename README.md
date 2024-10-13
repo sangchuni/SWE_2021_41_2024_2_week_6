@@ -24,3 +24,6 @@
 >docker exec ossp-container cat /etc/os-release\
 >* discription
 
+>docker exe ossp-container git --version
+>* discription
+
