@@ -28,7 +28,7 @@
 >  VERSION_CODENAME=noble\
 >  ID=ubuntu\
 >  ID_LIKE=debian\
->  HOME_URL="https://www.ubuntu.com/"\
+>  HOME_URL="https://www.ubuntu.com/" \
 >  UBUNTU_CODENAME=noble\
 >  LOGO=ubuntu-logo\
 >  
