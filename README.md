@@ -21,9 +21,16 @@
 * discription
 ---
 ## Week 5 assignment
->docker exec ossp-container cat /etc/os-release\
+>docker exec ossp-container cat /etc/os-release
+>* PRETTY_NAME="Ubuntu 24.04.1 LTS"
+>  VERSION_ID="24.04"
+
+>docker exec ossp-container git --version
 >* discription
 
->docker exe ossp-container git --version
+>docker exec ossp-container python3 --version
 >* discription
+
+>docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
+>* 
 
