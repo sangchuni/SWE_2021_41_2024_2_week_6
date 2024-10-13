@@ -44,9 +44,9 @@
 
 >docker exec ossp-container python3 --version
 >* Python 3.12.3\
->  This shows the version of Python installed
+>*  This shows the version of Python installed
 
 >docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 >* [./ossp_host_dir:/mnt/ossp_container_dir]\
->  This shows which path the container uses in host
+>*  This shows which path the container uses in host
 
