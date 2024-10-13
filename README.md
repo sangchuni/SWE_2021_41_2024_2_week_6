@@ -23,14 +23,22 @@
 ## Week 5 assignment
 >docker exec ossp-container cat /etc/os-release
 >* PRETTY_NAME="Ubuntu 24.04.1 LTS"\
->  VERSION_ID="24.04"
+>  VERSION_ID="24.04"\
+>  VERSION="24.04.1 LTS (Noble Numbat)"\
+>  VERSION_CODENAME=noble\
+>  ID=ubuntu\
+>  ID_LIKE=debian\
+>  HOME_URL="https://www.ubuntu.com/"\
+>  UBUNTU_CODENAME=noble\
+>  LOGO=ubuntu-logo\
+>  
 
 >docker exec ossp-container git --version
->* discription
+>* git version 2.43.0\
 
 >docker exec ossp-container python3 --version
->* discription
+>* Python 3.12.3\
 
 >docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
->* 
+>* [./ossp_host_dir:/mnt/ossp_container_dir]\
 
